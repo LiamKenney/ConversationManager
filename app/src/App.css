@@ -1,0 +1,129 @@
+.wrapper {
+  position: relative;
+  padding: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.conversation-wrapper {
+  padding: 0.8rem 0;
+  margin-bottom: 2rem;
+}
+
+.conversation {
+  position: relative;
+  background-color: #0073e3;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.message {
+  position: relative;
+  padding: 1rem;
+  text-align: left;
+  border: 1px #fff solid;
+}
+
+.title, .text {
+  font-size: 1.2rem;
+}
+
+.tag {
+  display: inline;
+  font-size: 0.8rem;
+  color: #ccc;
+  margin-left: 0.8rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.new-text {
+  flex-grow: 2;
+  margin-right: 2rem;
+}
+
+.open {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0.5rem;
+}
+
+.button {
+  background: #0073e3;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.4s all ease-out;
+  border: 1px #fff solid;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background: #0058b0;
+}
+
+.message .info {
+  justify-content: flex-start;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.created {
+  margin-right: 0.5rem;
+}
+
+.created, .modified {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.thought {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  border: 1px #fff solid;
+}
+
+.drawer {
+  padding: 1rem 0;
+}
+
+.search {
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
